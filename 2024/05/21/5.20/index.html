@@ -20,31 +20,33 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Hello呀，这里是我刚建立的小网站">
-<meta property="og:type" content="website">
+  <meta name="description" content="5.20 神奇的日子 伊朗总统被刺杀了（狗头）好了，我要开始进行领域的开拓了，以后每天学习的都会汇总到这个地方，有的东西em会进行加密，有的就给来的朋友们看看吧。今天要记载的是CSAPP的处理器体系结构（实际上是昨天的），这里我们准备实现一个Y86-64的处理器 首先，需要讲解一下程序员可见状态程序员可见状态，就是电脑对于程序员和机器级程序开放的信息，怎么说呢，就是可见的，已知的，能够访问的信息。">
+<meta property="og:type" content="article">
 <meta property="og:title" content="微风阁">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://example.com/2024/05/21/5.20/index.html">
 <meta property="og:site_name" content="微风阁">
-<meta property="og:description" content="Hello呀，这里是我刚建立的小网站">
+<meta property="og:description" content="5.20 神奇的日子 伊朗总统被刺杀了（狗头）好了，我要开始进行领域的开拓了，以后每天学习的都会汇总到这个地方，有的东西em会进行加密，有的就给来的朋友们看看吧。今天要记载的是CSAPP的处理器体系结构（实际上是昨天的），这里我们准备实现一个Y86-64的处理器 首先，需要讲解一下程序员可见状态程序员可见状态，就是电脑对于程序员和机器级程序开放的信息，怎么说呢，就是可见的，已知的，能够访问的信息。">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-05-21T03:51:33.573Z">
+<meta property="article:modified_time" content="2024-05-21T03:51:16.114Z">
 <meta property="article:author" content="大C">
 <meta property="article:tag" content="Home">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2024/05/21/5.20/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>微风阁</title>
+  <title> | 微风阁</title>
   
 
 
@@ -173,9 +175,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -191,10 +194,9 @@
       <meta itemprop="name" content="微风阁">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
+        <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2024/05/21/5.20/" class="post-title-link" itemprop="url">未命名</a>
-        </h2>
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -218,93 +220,37 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="5-20-神奇的日子-伊朗总统被刺杀了（狗头）"><a href="#5-20-神奇的日子-伊朗总统被刺杀了（狗头）" class="headerlink" title="5.20 神奇的日子 伊朗总统被刺杀了（狗头）"></a>5.20 神奇的日子 伊朗总统被刺杀了（狗头）</h1><h2 id="好了，我要开始进行领域的开拓了，以后每天学习的都会汇总到这个地方，有的东西em会进行加密，有的就给来的朋友们看看吧。"><a href="#好了，我要开始进行领域的开拓了，以后每天学习的都会汇总到这个地方，有的东西em会进行加密，有的就给来的朋友们看看吧。" class="headerlink" title="好了，我要开始进行领域的开拓了，以后每天学习的都会汇总到这个地方，有的东西em会进行加密，有的就给来的朋友们看看吧。"></a>好了，我要开始进行领域的开拓了，以后每天学习的都会汇总到这个地方，有的东西em会进行加密，有的就给来的朋友们看看吧。</h2><p>今天要记载的是CSAPP的处理器体系结构（实际上是昨天的），这里我们准备实现一个Y86-64的处理器</p>
+        <h1 id="5-20-神奇的日子-伊朗总统被刺杀了（狗头）"><a href="#5-20-神奇的日子-伊朗总统被刺杀了（狗头）" class="headerlink" title="5.20 神奇的日子 伊朗总统被刺杀了（狗头）"></a>5.20 神奇的日子 伊朗总统被刺杀了（狗头）</h1><h2 id="好了，我要开始进行领域的开拓了，以后每天学习的都会汇总到这个地方，有的东西em会进行加密，有的就给来的朋友们看看吧。"><a href="#好了，我要开始进行领域的开拓了，以后每天学习的都会汇总到这个地方，有的东西em会进行加密，有的就给来的朋友们看看吧。" class="headerlink" title="好了，我要开始进行领域的开拓了，以后每天学习的都会汇总到这个地方，有的东西em会进行加密，有的就给来的朋友们看看吧。"></a>好了，我要开始进行领域的开拓了，以后每天学习的都会汇总到这个地方，有的东西em会进行加密，有的就给来的朋友们看看吧。</h2><p>今天要记载的是CSAPP的处理器体系结构（实际上是昨天的），这里我们准备实现一个Y86-64的处理器</p>
 <h2 id="首先，需要讲解一下程序员可见状态"><a href="#首先，需要讲解一下程序员可见状态" class="headerlink" title="首先，需要讲解一下程序员可见状态"></a>首先，需要讲解一下程序员可见状态</h2><p>程序员可见状态，就是电脑对于程序员和机器级程序开放的信息，怎么说呢，就是可见的，已知的，能够访问的信息。有的东西，比如微处理器哪条电路是被使用的。<br>这个Y86-64处理器就是一种机器级程序，嗯，也是一个硬件，它使用的是被简化过后的指令集（相比于X86），它具有许多指令编码。</p>
 <h2 id="整数操作指令："><a href="#整数操作指令：" class="headerlink" title="整数操作指令："></a>整数操作指令：</h2><p>60 addq<br>61 subq<br>62 andq<br>63 xorq</p>
 <h2 id="分支指令："><a href="#分支指令：" class="headerlink" title="分支指令："></a>分支指令：</h2><p>什么是直接跳转：跳转到另一部分的编码指令     间接跳转：从别的地方读取跳转目标，跳转到相应的编码指令<br>70 jmp (直接跳转&#x2F;间接跳转)<br>71 jl（小于）<br>72 je（相等、零）  e:euqal<br>73 jne（不相等、非零）<br>74 jge（大于或等于）<br>75 jg（大于）</p>
 <h2 id="传送指令：-带条件的"><a href="#传送指令：-带条件的" class="headerlink" title="传送指令：(带条件的)"></a>传送指令：(带条件的)</h2><p>20 rrmovq<br>21 comvle<br>22 comvl<br>23 comve<br>24 comvne<br>25 cmovge<br>26 cmovg<br>指令有自己的代码位和功能位，合称类型码，在指令转换为机器码的第一个字节处。相应的类型码已经标出。通过观察相应汇编码的作用显然可看出，实际上也是这么设计的，功能位相同的指令用到的了相同的代码。</p>
 <h2 id="Y86-64的异常"><a href="#Y86-64的异常" class="headerlink" title="Y86-64的异常"></a>Y86-64的异常</h2><p>在程序员可见状态中有一个地方叫作状态码（实际为一个八字节寄存器 ）<br>在这里我们可以实现对程序大状态的把握<br>例如：<br>AOK      正常操作<br>HLT        遇到halt指令(halt是程序非法操作，如数组访问越界，栈溢出时触发的）<br>ADR    遇到非法地址<br>INS        遇到非法指令（错误指令）</p>
 <h2 id="顺序实现：-利用汇编码实现简单的程序（不使用跳转指令）"><a href="#顺序实现：-利用汇编码实现简单的程序（不使用跳转指令）" class="headerlink" title="顺序实现： 利用汇编码实现简单的程序（不使用跳转指令）"></a>顺序实现： 利用汇编码实现简单的程序（不使用跳转指令）</h2><h2 id="HDL-这是一种描绘硬件结构的文本表示，使得电路不一定是使用图来绘画，大大提升绘制效率，由于已经有专门的软件根据Verilog（一种语言用来描绘数字电路的）产生电路图，现在又有把HDL转换为Verilog的程序，所以我们现在可以很容易的通过HDL生成电路图"><a href="#HDL-这是一种描绘硬件结构的文本表示，使得电路不一定是使用图来绘画，大大提升绘制效率，由于已经有专门的软件根据Verilog（一种语言用来描绘数字电路的）产生电路图，现在又有把HDL转换为Verilog的程序，所以我们现在可以很容易的通过HDL生成电路图" class="headerlink" title="HDL:这是一种描绘硬件结构的文本表示，使得电路不一定是使用图来绘画，大大提升绘制效率，由于已经有专门的软件根据Verilog（一种语言用来描绘数字电路的）产生电路图，现在又有把HDL转换为Verilog的程序，所以我们现在可以很容易的通过HDL生成电路图"></a>HDL:这是一种描绘硬件结构的文本表示，使得电路不一定是使用图来绘画，大大提升绘制效率，由于已经有专门的软件根据Verilog（一种语言用来描绘数字电路的）产生电路图，现在又有把HDL转换为Verilog的程序，所以我们现在可以很容易的通过HDL生成电路图</h2><h1 id="好吧，这个写的确实不咋地，后面还是放各种项目吧。"><a href="#好吧，这个写的确实不咋地，后面还是放各种项目吧。" class="headerlink" title="好吧，这个写的确实不咋地，后面还是放各种项目吧。"></a>好吧，这个写的确实不咋地，后面还是放各种项目吧。</h1>
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/05/13/hello-world/">
+        
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="C:\Users\X1 carbon\Pictures\博客的图床\我的壁纸.png">
-      <meta itemprop="name" content="大C">
-      <meta itemprop="description" content="Hello呀，这里是我刚建立的小网站">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="微风阁">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/05/13/hello-world/" class="post-title-link" itemprop="url">你好</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2024-05-13 13:30:51" itemprop="dateCreated datePublished" datetime="2024-05-13T13:30:51+08:00">2024-05-13</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-05-17 10:15:58" itemprop="dateModified" datetime="2024-05-17T10:15:58+08:00">2024-05-17</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="第一次见面"><a href="#第一次见面" class="headerlink" title="第一次见面"></a>第一次见面</h2><p>这是我的个人博客，我把他当作了我个人发展的记录册，能到这里来的应该都是我的朋友，哈哈，如果是路过的极客朋友还请手下留情，第一个网站不容易&gt;_&lt;</p>
-<h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2>
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2024/05/13/hello-world/" rel="prev" title="你好">
+      <i class="fa fa-chevron-left"></i> 你好
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -357,6 +303,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#5-20-%E7%A5%9E%E5%A5%87%E7%9A%84%E6%97%A5%E5%AD%90-%E4%BC%8A%E6%9C%97%E6%80%BB%E7%BB%9F%E8%A2%AB%E5%88%BA%E6%9D%80%E4%BA%86%EF%BC%88%E7%8B%97%E5%A4%B4%EF%BC%89"><span class="nav-number">1.</span> <span class="nav-text">5.20 神奇的日子 伊朗总统被刺杀了（狗头）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A5%BD%E4%BA%86%EF%BC%8C%E6%88%91%E8%A6%81%E5%BC%80%E5%A7%8B%E8%BF%9B%E8%A1%8C%E9%A2%86%E5%9F%9F%E7%9A%84%E5%BC%80%E6%8B%93%E4%BA%86%EF%BC%8C%E4%BB%A5%E5%90%8E%E6%AF%8F%E5%A4%A9%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%83%BD%E4%BC%9A%E6%B1%87%E6%80%BB%E5%88%B0%E8%BF%99%E4%B8%AA%E5%9C%B0%E6%96%B9%EF%BC%8C%E6%9C%89%E7%9A%84%E4%B8%9C%E8%A5%BFem%E4%BC%9A%E8%BF%9B%E8%A1%8C%E5%8A%A0%E5%AF%86%EF%BC%8C%E6%9C%89%E7%9A%84%E5%B0%B1%E7%BB%99%E6%9D%A5%E7%9A%84%E6%9C%8B%E5%8F%8B%E4%BB%AC%E7%9C%8B%E7%9C%8B%E5%90%A7%E3%80%82"><span class="nav-number">1.1.</span> <span class="nav-text">好了，我要开始进行领域的开拓了，以后每天学习的都会汇总到这个地方，有的东西em会进行加密，有的就给来的朋友们看看吧。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A6%96%E5%85%88%EF%BC%8C%E9%9C%80%E8%A6%81%E8%AE%B2%E8%A7%A3%E4%B8%80%E4%B8%8B%E7%A8%8B%E5%BA%8F%E5%91%98%E5%8F%AF%E8%A7%81%E7%8A%B6%E6%80%81"><span class="nav-number">1.2.</span> <span class="nav-text">首先，需要讲解一下程序员可见状态</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B4%E6%95%B0%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4%EF%BC%9A"><span class="nav-number">1.3.</span> <span class="nav-text">整数操作指令：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%86%E6%94%AF%E6%8C%87%E4%BB%A4%EF%BC%9A"><span class="nav-number">1.4.</span> <span class="nav-text">分支指令：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BC%A0%E9%80%81%E6%8C%87%E4%BB%A4%EF%BC%9A-%E5%B8%A6%E6%9D%A1%E4%BB%B6%E7%9A%84"><span class="nav-number">1.5.</span> <span class="nav-text">传送指令：(带条件的)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Y86-64%E7%9A%84%E5%BC%82%E5%B8%B8"><span class="nav-number">1.6.</span> <span class="nav-text">Y86-64的异常</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A1%BA%E5%BA%8F%E5%AE%9E%E7%8E%B0%EF%BC%9A-%E5%88%A9%E7%94%A8%E6%B1%87%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%9A%84%E7%A8%8B%E5%BA%8F%EF%BC%88%E4%B8%8D%E4%BD%BF%E7%94%A8%E8%B7%B3%E8%BD%AC%E6%8C%87%E4%BB%A4%EF%BC%89"><span class="nav-number">1.7.</span> <span class="nav-text">顺序实现： 利用汇编码实现简单的程序（不使用跳转指令）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HDL-%E8%BF%99%E6%98%AF%E4%B8%80%E7%A7%8D%E6%8F%8F%E7%BB%98%E7%A1%AC%E4%BB%B6%E7%BB%93%E6%9E%84%E7%9A%84%E6%96%87%E6%9C%AC%E8%A1%A8%E7%A4%BA%EF%BC%8C%E4%BD%BF%E5%BE%97%E7%94%B5%E8%B7%AF%E4%B8%8D%E4%B8%80%E5%AE%9A%E6%98%AF%E4%BD%BF%E7%94%A8%E5%9B%BE%E6%9D%A5%E7%BB%98%E7%94%BB%EF%BC%8C%E5%A4%A7%E5%A4%A7%E6%8F%90%E5%8D%87%E7%BB%98%E5%88%B6%E6%95%88%E7%8E%87%EF%BC%8C%E7%94%B1%E4%BA%8E%E5%B7%B2%E7%BB%8F%E6%9C%89%E4%B8%93%E9%97%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E6%A0%B9%E6%8D%AEVerilog%EF%BC%88%E4%B8%80%E7%A7%8D%E8%AF%AD%E8%A8%80%E7%94%A8%E6%9D%A5%E6%8F%8F%E7%BB%98%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E7%9A%84%EF%BC%89%E4%BA%A7%E7%94%9F%E7%94%B5%E8%B7%AF%E5%9B%BE%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%8F%88%E6%9C%89%E6%8A%8AHDL%E8%BD%AC%E6%8D%A2%E4%B8%BAVerilog%E7%9A%84%E7%A8%8B%E5%BA%8F%EF%BC%8C%E6%89%80%E4%BB%A5%E6%88%91%E4%BB%AC%E7%8E%B0%E5%9C%A8%E5%8F%AF%E4%BB%A5%E5%BE%88%E5%AE%B9%E6%98%93%E7%9A%84%E9%80%9A%E8%BF%87HDL%E7%94%9F%E6%88%90%E7%94%B5%E8%B7%AF%E5%9B%BE"><span class="nav-number">1.8.</span> <span class="nav-text">HDL:这是一种描绘硬件结构的文本表示，使得电路不一定是使用图来绘画，大大提升绘制效率，由于已经有专门的软件根据Verilog（一种语言用来描绘数字电路的）产生电路图，现在又有把HDL转换为Verilog的程序，所以我们现在可以很容易的通过HDL生成电路图</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%A5%BD%E5%90%A7%EF%BC%8C%E8%BF%99%E4%B8%AA%E5%86%99%E7%9A%84%E7%A1%AE%E5%AE%9E%E4%B8%8D%E5%92%8B%E5%9C%B0%EF%BC%8C%E5%90%8E%E9%9D%A2%E8%BF%98%E6%98%AF%E6%94%BE%E5%90%84%E7%A7%8D%E9%A1%B9%E7%9B%AE%E5%90%A7%E3%80%82"><span class="nav-number">2.</span> <span class="nav-text">好吧，这个写的确实不咋地，后面还是放各种项目吧。</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
